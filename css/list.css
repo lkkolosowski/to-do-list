@@ -1,36 +1,36 @@
 .list {
-    list-style-type: none;
-    padding: 0;
-    margin: 20px 0 0 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0 0 0;
 }
 
 .list__item {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    grid-gap: 10px;
-    align-items: center;
-    padding: 10px;
-    border-bottom: 1px solid #dedede;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-gap: 10px;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #dedede;
 }
 
 .list__item--done .list__task {
-    text-decoration: line-through;
-    }
+  text-decoration: line-through;
+}
 
 .list__button {
-    padding: 0;
-    border: none;
-    color: white;
-    height: 30px;
-    width: 30px;
-    background-color: #008000;
-    cursor: pointer;
+  padding: 0;
+  border: none;
+  color: white;
+  height: 30px;
+  width: 30px;
+  background-color: #008000;
+  cursor: pointer;
 }
 
 .list__button:active {
-    outline: 1px solid #222;
-  }
+  outline: 1px solid #222;
+}
 
 .list__button--remove {
-    background-color: #ff0000;
+  background-color: #ff0000;
 }
