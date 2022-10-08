@@ -20,4 +20,9 @@
   background-color: #008080;
   border: 0;
   padding: 10px;
+  cursor: pointer;
+}
+
+.form__button:active {
+  outline: 1px solid #222;
 }

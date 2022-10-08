@@ -27,6 +27,10 @@
     cursor: pointer;
 }
 
+.list__button:active {
+    outline: 1px solid #222;
+  }
+
 .list__button--remove {
     background-color: #ff0000;
 }

@@ -27,6 +27,11 @@
     render();
   };
 
+  const focusOnSubmit = () => {
+    document.querySelector(".js-newTask").value = "";
+    document.querySelector(".js-newTask").focus();
+  };
+
   const bindEvents = () => {
     const removeButtons = document.querySelectorAll(".js-remove");
     removeButtons.forEach((removeButton, index) => {
@@ -68,10 +73,11 @@
     const newTaskContent = document.querySelector(".js-newTask").value.trim();
 
     if (newTaskContent === "") {
-      document.querySelector(".js-newTask").focus();
+      focusOnSubmit();
       return;
     }
     addNewTask(newTaskContent);
+    focusOnSubmit();
   };
 
   const init = () => {
