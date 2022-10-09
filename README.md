@@ -1,4 +1,4 @@
-# Currency Converter
+# To Do List
 ## DEMO
 https://lkkolosowski.github.io/to-do-list/
 
