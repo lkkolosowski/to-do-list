@@ -60,9 +60,9 @@
     for (const task of tasks) {
       htmlString += `
       <li class="list__item ${task.done ? "list__item--done" : ""}">
-      <button class="list__button js-done">${task.done ? "✓" : ""}</button>
-      <span class="list__task">${task.content}</span>
-      <button class="list__button list__button--remove js-remove">🗑</button>
+        <button class="list__button js-done">${task.done ? "✓" : ""}</button>
+        <span class="list__task">${task.content}</span>
+        <button class="list__button list__button--remove js-remove">🗑</button>
       </li>
       `;
     }
@@ -82,6 +82,7 @@
       focusOnSubmit();
       return;
     }
+
     addNewTask(newTaskContent);
     focusOnSubmit();
   };
