@@ -23,6 +23,12 @@
   cursor: pointer;
 }
 
+.form__button:hover {
+  outline: 1px solid #222;
+  background-color: #009999;
+}
+
 .form__button:active {
   outline: 1px solid #222;
+  background-color: #00b3b3;
 }

@@ -27,10 +27,27 @@
   cursor: pointer;
 }
 
+.list__button:hover {
+  outline: 1px solid #222;
+  background-color: #009900;
+}
+
 .list__button:active {
   outline: 1px solid #222;
+  background-color: #00b300;
 }
 
 .list__button--remove {
+  outline: 1px solid #222;
   background-color: #ff0000;
+}
+
+.list__button--remove:hover {
+  outline: 1px solid #222;
+  background-color: #ff4d4d;
+}
+
+.list__button--remove:active {
+  outline: 1px solid #222;
+  background-color: #ff8080;
 }
