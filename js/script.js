@@ -2,11 +2,9 @@
   const tasks = [
     {
       content: "nagrać lekcję",
-      done: false,
     },
     {
       content: "zjeść pierogi",
-      done: true,
     },
   ];
 
@@ -28,12 +26,14 @@
   };
 
   const focusOnSubmit = () => {
-    document.querySelector(".js-newTask").value = "";
-    document.querySelector(".js-newTask").focus();
+    const newTask = document.querySelector(".js-newTask");
+    newTask.value = "";
+    newTask.focus();
   };
 
   const bindEvents = () => {
     const removeButtons = document.querySelectorAll(".js-remove");
+
     removeButtons.forEach((removeButton, index) => {
       removeButton.addEventListener("click", () => {
         removeTask(index);
