@@ -2,12 +2,17 @@
   background-color: #fff;
   box-shadow: 0 1px 2px 0 rgb(34 34 34 / 5%);
   margin-bottom: 10px;
-  padding: 20px;
 }
 
 .section__header {
-  padding: 0 20px 20px;
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  grid-gap: 30px;
   border-bottom: 1px solid #dedede;
-  margin: 0 -20px 20px;
+  padding: 20px;
+}
+
+.section__title {
   font-size: 20px;
+  margin: 0;
 }
