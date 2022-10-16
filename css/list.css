@@ -2,6 +2,7 @@
   list-style-type: none;
   padding: 20px;
   margin: 0;
+  word-break: break-word;
 }
 
 .list__item {
