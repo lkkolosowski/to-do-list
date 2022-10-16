@@ -22,14 +22,14 @@
   border: 0;
   padding: 10px;
   cursor: pointer;
+  transition-duration: 0.2s;
 }
 
 .form__button:hover {
-  outline: 1px solid #222;
   background-color: #009999;
+  transform: scale(1.1);
 }
 
 .form__button:active {
-  outline: 1px solid #222;
   background-color: #00b3b3;
 }

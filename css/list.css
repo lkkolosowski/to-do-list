@@ -25,15 +25,14 @@
   width: 30px;
   background-color: #008000;
   cursor: pointer;
+  transition-duration: 0.2s;
 }
 
 .list__button:hover {
-  outline: 1px solid #222;
   background-color: #009900;
 }
 
 .list__button:active {
-  outline: 1px solid #222;
   background-color: #00b300;
 }
 
@@ -42,11 +41,9 @@
 }
 
 .list__button--remove:hover {
-  outline: 1px solid #222;
   background-color: #ff4d4d;
 }
 
 .list__button--remove:active {
-  outline: 1px solid #222;
   background-color: #ff8080;
 }
