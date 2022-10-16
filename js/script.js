@@ -1,5 +1,5 @@
 {
-  let tasks = [];
+  let tasks = [{ content: "Zadanie testowe 1" }, { content: "Zadanie testowe 2" }, { content: "Zadanie testowe 3" }];
   let hideDoneTasks = false;
 
   const addNewTask = (newTaskContent) => {
@@ -59,7 +59,14 @@
     document.querySelector(".js-tasks").innerHTML = htmlString;
   };
 
-  const renderButtons = () => {};
+  const renderButtons = () => {
+    let htmlString = "";
+    htmlString += `
+        <button class="button js-button js-hideDoneTasks">Ukryj ukończone</button>
+        <button class="button js-button js-markAllTaskAsDone">Ukończ wszystkie</button>
+      `;
+    document.querySelector(".js-buttons").innerHTML = htmlString;
+  };
 
   const bindButtonsEvents = () => {};
 
