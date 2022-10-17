@@ -1,5 +1,5 @@
 {
-  let tasks = [{ content: "Zadanie testowe 1" }, { content: "Zadanie testowe 2" }, { content: "Zadanie testowe 3" }];
+  let tasks = [];
   let hideDoneTasks = false;
 
   const addNewTask = (newTaskContent) => {
