@@ -15,3 +15,8 @@
 .button:active {
   color: #00b3b3;
 }
+
+.button:disabled {
+  color: #d3d3d3;
+  pointer-events: none;
+}
