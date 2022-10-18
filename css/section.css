@@ -5,28 +5,25 @@
 }
 
 .section__header {
-  display: grid;
-  grid-template-columns: 1fr auto;
+  display: flex;
+  justify-content: space-between;
   border-bottom: 1px solid #dedede;
   padding: 20px;
 }
 
 @media screen and (max-width: 768px) {
   .section__header {
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
+    flex-direction: column;
   }
 }
 
 .section__container {
   display: flex;
-  gap: 30px;
 }
 
 @media screen and (max-width: 768px) {
   .section__container {
     flex-direction: column;
-    gap: 20px;
   }
 }
 

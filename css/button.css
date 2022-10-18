@@ -6,6 +6,13 @@
   background-color: transparent;
   cursor: pointer;
   transition-duration: 0.2s;
+  margin: 0 0 0 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    margin: 20px 0 0 0;
+  }
 }
 
 .button:hover {
