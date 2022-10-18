@@ -3,6 +3,7 @@
   padding: 20px;
   margin: 0;
   word-break: break-word;
+  min-height: 63px;
 }
 
 .list__item {
