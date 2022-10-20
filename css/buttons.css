@@ -1,4 +1,14 @@
-.button {
+.buttons {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .buttons {
+    flex-direction: column;
+  }
+}
+
+.buttons .button {
   padding: 0;
   margin: 0;
   border: 0;
@@ -10,20 +20,20 @@
 }
 
 @media screen and (max-width: 768px) {
-  .button {
+  .buttons .button {
     margin: 20px 0 0 0;
   }
 }
 
-.button:hover {
+.buttons .button:hover {
   color: #009999;
 }
 
-.button:active {
+.buttons .button:active {
   color: #00b3b3;
 }
 
-.button:disabled {
+.buttons .button:disabled {
   color: #d3d3d3;
   pointer-events: none;
 }

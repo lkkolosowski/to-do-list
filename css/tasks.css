@@ -1,4 +1,4 @@
-.list {
+.tasks {
   list-style-type: none;
   padding: 20px;
   margin: 0;
@@ -6,7 +6,7 @@
   min-height: 63px;
 }
 
-.list__item {
+.tasks__item {
   display: grid;
   grid-template-columns: auto 1fr auto;
   grid-gap: 10px;
@@ -15,15 +15,15 @@
   border-bottom: 1px solid #dedede;
 }
 
-.list__item--hidden {
+.tasks__item--hidden {
   display: none;
 }
 
-.list__item--done .list__task {
+.tasks__item--done .tasks__task {
   text-decoration: line-through;
 }
 
-.list__button {
+.tasks__button {
   padding: 0;
   border: none;
   color: white;
@@ -34,22 +34,22 @@
   transition-duration: 0.2s;
 }
 
-.list__button:hover {
+.tasks__button:hover {
   background-color: #009900;
 }
 
-.list__button:active {
+.tasks__button:active {
   background-color: #00b300;
 }
 
-.list__button--remove {
+.tasks__button--remove {
   background-color: #ff0000;
 }
 
-.list__button--remove:hover {
+.tasks__button--remove:hover {
   background-color: #ff4d4d;
 }
 
-.list__button--remove:active {
+.tasks__button--remove:active {
   background-color: #ff8080;
 }

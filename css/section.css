@@ -17,16 +17,6 @@
   }
 }
 
-.section__container {
-  display: flex;
-}
-
-@media screen and (max-width: 768px) {
-  .section__container {
-    flex-direction: column;
-  }
-}
-
 .section__title {
   font-size: 20px;
   margin: 0;
