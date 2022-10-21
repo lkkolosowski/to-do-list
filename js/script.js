@@ -94,11 +94,11 @@
     let htmlString = "";
     if (tasks.length > 0) {
       htmlString += `
-        <button class="button js-button js-hideTasksButton">
+        <button class="buttons__button js-button js-hideTasksButton">
           ${hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
         </button>
         <button ${tasks.every(({ done }) => done) ? "disabled" : ""}
-        class="button js-button js-markAllTasksAsDoneButton">
+        class="buttons__button js-button js-markAllTasksAsDoneButton">
           Ukończ wszystkie
         </button>
       `;

@@ -8,7 +8,7 @@
   }
 }
 
-.buttons .button {
+.buttons__button {
   padding: 0;
   margin: 0;
   border: 0;
@@ -20,20 +20,20 @@
 }
 
 @media screen and (max-width: 768px) {
-  .buttons .button {
+  .buttons__button {
     margin: 20px 0 0 0;
   }
 }
 
-.buttons .button:hover {
+.buttons__button:hover {
   color: #009999;
 }
 
-.buttons .button:active {
+.buttons__button:active {
   color: #00b3b3;
 }
 
-.buttons .button:disabled {
+.buttons__button:disabled {
   color: #d3d3d3;
   pointer-events: none;
 }
